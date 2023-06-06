@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=3 uid="uid://c3u3663kxfcqo"]
+
+[ext_resource type="Script" path="res://Main.gd" id="1_nh7pu"]
+[ext_resource type="PackedScene" uid="uid://dmn8ejd7tullp" path="res://bg.tscn" id="2_q2ffb"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_nh7pu")
+
+[node name="BtnQuit" type="Button" parent="."]
+offset_left = 374.0
+offset_top = 379.0
+offset_right = 874.0
+offset_bottom = 579.0
+tooltip_text = "Salir"
+theme_override_colors/font_color = Color(0.741176, 0.580392, 0, 1)
+text = "Quit"
+
+[node name="BtnPlay" type="Button" parent="."]
+offset_left = 365.0
+offset_top = 61.0
+offset_right = 865.0
+offset_bottom = 261.0
+theme_override_colors/font_color = Color(0.0431373, 0.54902, 0.509804, 1)
+text = "Play"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 333.0
+offset_top = 243.0
+offset_right = 981.0
+offset_bottom = 378.0
+theme_override_font_sizes/normal_font_size = 93
+text = "Presentación"
+
+[node name="BG" parent="." instance=ExtResource("2_q2ffb")]
+
+[connection signal="pressed" from="BtnQuit" to="." method="_on_btn_quit_pressed"]
+[connection signal="pressed" from="BtnPlay" to="." method="_on_btn_play_pressed"]
