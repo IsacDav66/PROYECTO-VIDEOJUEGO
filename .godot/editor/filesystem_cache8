@@ -1,20 +1,33 @@
 2a60927148abd1d33b818b535e306557
-::res://::1686015682
+::res://::1686331183
 BG.gd::GDScript::-1::1685651596::0::1::::<>ParallaxBackground<>::
-bg.tscn::PackedScene::8030376368300069441::1686015681::0::1::::<><>::res://BG.gd<>uid://b0ukl1i2dusc<>uid://dpjdpwjnryke5
+bg.tscn::PackedScene::8030376368300069441::1686160295::0::1::::<><>::res://BG.gd<>uid://b0ukl1i2dusc<>uid://dpjdpwjnryke5
 ColorRect.gd::GDScript::-1::1685892158::0::1::::<>ColorRect<>::
 Frog.gd::GDScript::-1::1685990951::0::1::::<>CharacterBody2D<>::
-Frog.tscn::PackedScene::7570837858290704521::1686015681::0::1::::<><>::res://Frog.gd<>uid://84lvd46442ey<>uid://dq1i6ksrfhhhq<>uid://b6ato7xv73yo1
+Frog.tscn::PackedScene::7570837858290704521::1686160296::0::1::::<><>::res://Frog.gd<>uid://84lvd46442ey<>uid://dq1i6ksrfhhhq<>uid://b6ato7xv73yo1
 icon.svg::CompressedTexture2D::8058093968977246105::1685021888::1685021894::1::::<><>::
 juego.gd::GDScript::-1::1685026362::0::1::::<>Node2D<>::
-juego.tscn::PackedScene::5326863850535771265::1686015681::0::1::::<><>::res://juego.gd<>res://BG.gd<>uid://vwogb88jcwl2<>uid://bo4d1olwehff1<>uid://b0ukl1i2dusc<>uid://df4muf8q45mn6
+juego.tscn::PackedScene::5326863850535771265::1686160294::0::1::::<><>::res://juego.gd<>res://BG.gd<>uid://vwogb88jcwl2<>uid://bo4d1olwehff1<>uid://b0ukl1i2dusc<>uid://df4muf8q45mn6
 Main.gd::GDScript::-1::1685990216::0::1::::<>Node2D<>::
-Main.tscn::PackedScene::6781173651704484622::1686015681::0::1::::<><>::res://Main.gd<>uid://dmn8ejd7tullp
+Main.tscn::PackedScene::6781173651704484622::1686160293::0::1::::<><>::res://Main.gd<>uid://dmn8ejd7tullp
 player.gd::GDScript::-1::1685990543::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::1520242884663551337::1686015681::0::1::::<><>::uid://cjnoj8y3emv3s<>res://player.gd<>uid://bmhthk0uwuchf<>uid://bx7eum53ldj2i<>uid://b2t7jmmpuh6sm<>uid://dj35qtbma1ccq<>uid://dthadco8jb4o3<>uid://d3gp25qqugmy1<>uid://b06lwpbduupwo<>uid://dwesxjqthsvh4<>uid://1trkj3pg4umd<>uid://cpb5dhm8psuqy<>uid://bpidqoiwfqrkn<>uid://dt72yj42a83ct
-ShaderP.tscn::PackedScene::5751847006803727918::1686015682::0::1::::<><>::
-::res://Collectables/::1686015682
-Cherry.tscn::PackedScene::6333534617157171025::1686015682::0::1::::<><>::uid://b1id76inj6rio<>uid://ubwvydlus72g<>uid://c53ybomse1u8o<>uid://6usmdpxeg7tw<>uid://bmn6r778c3ube<>uid://dw303fllrwohf<>uid://fswfd4golmnw
+player.tscn::PackedScene::1520242884663551337::1686164840::0::1::::<><>::uid://cjnoj8y3emv3s<>res://player.gd<>uid://bve7dhch5yd2j<>uid://cvwuif8vmhujc<>uid://d3vk4wdpdb2fd<>uid://dgl7e8coedwgi<>uid://s763l4cu6w8o<>uid://cx4skxsqtjfp0<>uid://b06lwpbduupwo<>uid://dwesxjqthsvh4<>uid://dr4dhl4nobh84<>uid://1trkj3pg4umd<>uid://cpb5dhm8psuqy<>uid://bpidqoiwfqrkn<>uid://dt72yj42a83ct
+README.md::TextFile::-1::1686015789::0::1::::<><>::
+ShaderP.tscn::PackedScene::5751847006803727918::1686160296::0::1::::<><>::
+::res://ASSETS PROPIOS/::1686149479
+::res://ASSETS PROPIOS/Sprites/::1686160230
+::res://ASSETS PROPIOS/Sprites/Player/::1686160394
+::res://ASSETS PROPIOS/Sprites/Player/Idle/::1686150835
+Idle0000.png::CompressedTexture2D::3870592583370407339::1686150821::1686150835::1::::<><>::
+Idle0001.png::CompressedTexture2D::6293452335146540636::1686150821::1686150835::1::::<><>::
+Idle0002.png::CompressedTexture2D::9168561724564099313::1686150821::1686150835::1::::<><>::
+Idle0003.png::CompressedTexture2D::7605055092148049860::1686150821::1686150835::1::::<><>::
+Idle0004.png::CompressedTexture2D::1331392125294615424::1686150821::1686150835::1::::<><>::
+::res://ASSETS PROPIOS/Sprites/Player/Jump/::1686160395
+Jump0000.png::CompressedTexture2D::6448163726333775779::1686160391::1686160395::1::::<><>::
+Jump0001.png::CompressedTexture2D::8412534622494818275::1686160391::1686160395::1::::<><>::
+::res://Collectables/::1686160296
+Cherry.tscn::PackedScene::6333534617157171025::1686160296::0::1::::<><>::uid://b1id76inj6rio<>uid://ubwvydlus72g<>uid://c53ybomse1u8o<>uid://6usmdpxeg7tw<>uid://bmn6r778c3ube<>uid://dw303fllrwohf<>uid://fswfd4golmnw
 ::res://Global/::1686015499
 Game.gd::GDScript::-1::1685988049::0::1::::<>Node<>::
 Utils.gd::GDScript::-1::1685990352::0::1::::<>Node<>::

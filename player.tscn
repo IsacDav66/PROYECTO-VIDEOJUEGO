@@ -1,15 +1,16 @@
-[gd_scene load_steps=25 format=3 uid="uid://vwogb88jcwl2"]
+[gd_scene load_steps=26 format=3 uid="uid://vwogb88jcwl2"]
 
 [ext_resource type="Texture2D" uid="uid://cjnoj8y3emv3s" path="res://Sunny-land-files/Sunny-land-assets-files/PNG/spritesheets/player-crouch.png" id="1_22h6n"]
 [ext_resource type="Script" path="res://player.gd" id="1_ylyea"]
-[ext_resource type="Texture2D" uid="uid://bmhthk0uwuchf" path="res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/idle/player-idle-1.png" id="2_y4ncj"]
-[ext_resource type="Texture2D" uid="uid://bx7eum53ldj2i" path="res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/idle/player-idle-2.png" id="3_ew1lk"]
-[ext_resource type="Texture2D" uid="uid://b2t7jmmpuh6sm" path="res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/idle/player-idle-3.png" id="4_u1hfg"]
-[ext_resource type="Texture2D" uid="uid://dj35qtbma1ccq" path="res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/idle/player-idle-4.png" id="5_5dhg2"]
-[ext_resource type="Texture2D" uid="uid://dthadco8jb4o3" path="res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/jump/player-jump-1.png" id="6_aimep"]
-[ext_resource type="Texture2D" uid="uid://d3gp25qqugmy1" path="res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/jump/player-jump-2.png" id="7_k4e4m"]
+[ext_resource type="Texture2D" uid="uid://bve7dhch5yd2j" path="res://ASSETS PROPIOS/Sprites/Player/Idle/Idle0000.png" id="3_1x4hd"]
+[ext_resource type="Texture2D" uid="uid://cvwuif8vmhujc" path="res://ASSETS PROPIOS/Sprites/Player/Idle/Idle0001.png" id="4_50o7a"]
+[ext_resource type="Texture2D" uid="uid://d3vk4wdpdb2fd" path="res://ASSETS PROPIOS/Sprites/Player/Idle/Idle0002.png" id="5_6xu7y"]
+[ext_resource type="Texture2D" uid="uid://dgl7e8coedwgi" path="res://ASSETS PROPIOS/Sprites/Player/Idle/Idle0003.png" id="6_x56pu"]
+[ext_resource type="Texture2D" uid="uid://s763l4cu6w8o" path="res://ASSETS PROPIOS/Sprites/Player/Idle/Idle0004.png" id="7_k14op"]
+[ext_resource type="Texture2D" uid="uid://cx4skxsqtjfp0" path="res://ASSETS PROPIOS/Sprites/Player/Jump/Jump0000.png" id="8_a6b6m"]
 [ext_resource type="Texture2D" uid="uid://b06lwpbduupwo" path="res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/run/player-run-1.png" id="8_eong6"]
 [ext_resource type="Texture2D" uid="uid://dwesxjqthsvh4" path="res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/run/player-run-2.png" id="9_05gbm"]
+[ext_resource type="Texture2D" uid="uid://dr4dhl4nobh84" path="res://ASSETS PROPIOS/Sprites/Player/Jump/Jump0001.png" id="9_w237r"]
 [ext_resource type="Texture2D" uid="uid://1trkj3pg4umd" path="res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/run/player-run-3.png" id="10_seoda"]
 [ext_resource type="Texture2D" uid="uid://cpb5dhm8psuqy" path="res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/run/player-run-4.png" id="11_6k88b"]
 [ext_resource type="Texture2D" uid="uid://bpidqoiwfqrkn" path="res://Sunny-land-files/Sunny-land-assets-files/PNG/sprites/player/run/player-run-5.png" id="12_3xfki"]
@@ -41,16 +42,19 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_y4ncj")
+"texture": ExtResource("3_1x4hd")
 }, {
 "duration": 1.0,
-"texture": ExtResource("3_ew1lk")
+"texture": ExtResource("4_50o7a")
 }, {
 "duration": 1.0,
-"texture": ExtResource("4_u1hfg")
+"texture": ExtResource("5_6xu7y")
 }, {
 "duration": 1.0,
-"texture": ExtResource("5_5dhg2")
+"texture": ExtResource("6_x56pu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_k14op")
 }],
 "loop": true,
 "name": &"Idle",
@@ -58,10 +62,10 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("6_aimep")
+"texture": ExtResource("8_a6b6m")
 }, {
 "duration": 1.0,
-"texture": ExtResource("7_k4e4m")
+"texture": ExtResource("9_w237r")
 }],
 "loop": true,
 "name": &"Jump",
@@ -237,9 +241,9 @@ shape = SubResource("CapsuleShape2D_43s2h")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
-position = Vector2(2, 5)
+position = Vector2(5, -16)
 sprite_frames = SubResource("SpriteFrames_43cy8")
-animation = &"Jump"
+animation = &"Run"
 frame = 1
 
 [node name="Camera2D" type="Camera2D" parent="."]
