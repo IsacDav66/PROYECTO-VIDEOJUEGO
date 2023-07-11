@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dmaadhu524xvr"
+path="res://.godot/imported/Metal_tapping.wav-394c50926812601fe65bb0acc76da4dd.sample"
+
+[deps]
+
+source_file="res://ASSETS PROPIOS/Assets Certus P/Sonido Enemigos/Horror SFX Free/Ambient/Metal_tapping.wav"
+dest_files=["res://.godot/imported/Metal_tapping.wav-394c50926812601fe65bb0acc76da4dd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

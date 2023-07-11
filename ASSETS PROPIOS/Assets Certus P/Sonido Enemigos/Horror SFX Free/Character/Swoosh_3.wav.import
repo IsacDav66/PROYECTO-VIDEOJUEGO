@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://de088w5kxgver"
+path="res://.godot/imported/Swoosh_3.wav-faa6b3df571c5cd4316e3d6df8a28151.sample"
+
+[deps]
+
+source_file="res://ASSETS PROPIOS/Assets Certus P/Sonido Enemigos/Horror SFX Free/Character/Swoosh_3.wav"
+dest_files=["res://.godot/imported/Swoosh_3.wav-faa6b3df571c5cd4316e3d6df8a28151.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

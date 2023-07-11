@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d3imyadi3xvt6"
+path="res://.godot/imported/switch.wav-309c8b1c3a7be8eb940b79a403fa0601.sample"
+
+[deps]
+
+source_file="res://ASSETS PROPIOS/Assets Certus P/Sonido Enemigos/Horror SFX Free/House & Office/switch.wav"
+dest_files=["res://.godot/imported/switch.wav-309c8b1c3a7be8eb940b79a403fa0601.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

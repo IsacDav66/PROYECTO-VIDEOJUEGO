@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ckjvm438cpq2e"
+path="res://.godot/imported/Nivel 3.mp3-bc38005b58ebf68e7ca4b79a7c2d0e47.mp3str"
+
+[deps]
+
+source_file="res://ASSETS PROPIOS/Assets Certus P/SoundTracks de niveles/Nivel 3.mp3"
+dest_files=["res://.godot/imported/Nivel 3.mp3-bc38005b58ebf68e7ca4b79a7c2d0e47.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

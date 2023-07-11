@@ -1,33 +1,377 @@
 2a60927148abd1d33b818b535e306557
-::res://::1686331183
+::res://::1689114785
 BG.gd::GDScript::-1::1685651596::0::1::::<>ParallaxBackground<>::
-bg.tscn::PackedScene::8030376368300069441::1686160295::0::1::::<><>::res://BG.gd<>uid://b0ukl1i2dusc<>uid://dpjdpwjnryke5
+bg.tscn::PackedScene::8030376368300069441::1689110154::0::1::::<><>::res://BG.gd<>uid://b0ukl1i2dusc<>uid://dpjdpwjnryke5
 ColorRect.gd::GDScript::-1::1685892158::0::1::::<>ColorRect<>::
 Frog.gd::GDScript::-1::1685990951::0::1::::<>CharacterBody2D<>::
-Frog.tscn::PackedScene::7570837858290704521::1686160296::0::1::::<><>::res://Frog.gd<>uid://84lvd46442ey<>uid://dq1i6ksrfhhhq<>uid://b6ato7xv73yo1
+Frog.tscn::PackedScene::7570837858290704521::1689110154::0::1::::<><>::res://Frog.gd<>uid://84lvd46442ey<>uid://dq1i6ksrfhhhq<>uid://b6ato7xv73yo1
 icon.svg::CompressedTexture2D::8058093968977246105::1685021888::1685021894::1::::<><>::
 juego.gd::GDScript::-1::1685026362::0::1::::<>Node2D<>::
-juego.tscn::PackedScene::5326863850535771265::1686160294::0::1::::<><>::res://juego.gd<>res://BG.gd<>uid://vwogb88jcwl2<>uid://bo4d1olwehff1<>uid://b0ukl1i2dusc<>uid://df4muf8q45mn6
+juego.tscn::PackedScene::5326863850535771265::1689110153::0::1::::<><>::res://juego.gd<>res://BG.gd<>uid://vwogb88jcwl2<>uid://bo4d1olwehff1<>uid://b0ukl1i2dusc<>uid://df4muf8q45mn6
 Main.gd::GDScript::-1::1685990216::0::1::::<>Node2D<>::
-Main.tscn::PackedScene::6781173651704484622::1686160293::0::1::::<><>::res://Main.gd<>uid://dmn8ejd7tullp
+Main.tscn::PackedScene::6781173651704484622::1689110151::0::1::::<><>::res://Main.gd<>uid://dmn8ejd7tullp
 player.gd::GDScript::-1::1685990543::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::1520242884663551337::1686164840::0::1::::<><>::uid://cjnoj8y3emv3s<>res://player.gd<>uid://bve7dhch5yd2j<>uid://cvwuif8vmhujc<>uid://d3vk4wdpdb2fd<>uid://dgl7e8coedwgi<>uid://s763l4cu6w8o<>uid://cx4skxsqtjfp0<>uid://b06lwpbduupwo<>uid://dwesxjqthsvh4<>uid://dr4dhl4nobh84<>uid://1trkj3pg4umd<>uid://cpb5dhm8psuqy<>uid://bpidqoiwfqrkn<>uid://dt72yj42a83ct
+player.tscn::PackedScene::1520242884663551337::1689110154::0::1::::<><>::uid://cjnoj8y3emv3s<>res://player.gd<>uid://bve7dhch5yd2j<>uid://cvwuif8vmhujc<>uid://d3vk4wdpdb2fd<>uid://dgl7e8coedwgi<>uid://s763l4cu6w8o<>uid://cx4skxsqtjfp0<>uid://dr4dhl4nobh84<>uid://ts5emwvyj253<>uid://b23jhvs2x3jlw<>uid://d2uag8sjrnnca<>uid://bbjqtra857qaf<>uid://cdnv3r50adyb7<>uid://ba4m5hywjj724<>uid://ctx5w7bn35pw6<>uid://d0qsnrwrlsh0a
 README.md::TextFile::-1::1686015789::0::1::::<><>::
-ShaderP.tscn::PackedScene::5751847006803727918::1686160296::0::1::::<><>::
-::res://ASSETS PROPIOS/::1686149479
-::res://ASSETS PROPIOS/Sprites/::1686160230
-::res://ASSETS PROPIOS/Sprites/Player/::1686160394
-::res://ASSETS PROPIOS/Sprites/Player/Idle/::1686150835
-Idle0000.png::CompressedTexture2D::3870592583370407339::1686150821::1686150835::1::::<><>::
-Idle0001.png::CompressedTexture2D::6293452335146540636::1686150821::1686150835::1::::<><>::
-Idle0002.png::CompressedTexture2D::9168561724564099313::1686150821::1686150835::1::::<><>::
-Idle0003.png::CompressedTexture2D::7605055092148049860::1686150821::1686150835::1::::<><>::
-Idle0004.png::CompressedTexture2D::1331392125294615424::1686150821::1686150835::1::::<><>::
-::res://ASSETS PROPIOS/Sprites/Player/Jump/::1686160395
-Jump0000.png::CompressedTexture2D::6448163726333775779::1686160391::1686160395::1::::<><>::
-Jump0001.png::CompressedTexture2D::8412534622494818275::1686160391::1686160395::1::::<><>::
-::res://Collectables/::1686160296
-Cherry.tscn::PackedScene::6333534617157171025::1686160296::0::1::::<><>::uid://b1id76inj6rio<>uid://ubwvydlus72g<>uid://c53ybomse1u8o<>uid://6usmdpxeg7tw<>uid://bmn6r778c3ube<>uid://dw303fllrwohf<>uid://fswfd4golmnw
+ShaderP.tscn::PackedScene::5751847006803727918::1689110154::0::1::::<><>::
+::res://ASSETS PROPIOS/::1689114970
+::res://ASSETS PROPIOS/Assets Certus P/::1689114996
+::res://ASSETS PROPIOS/Assets Certus P/BG/::1689114996
+::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 2/::1689115004
+MonsterPackTile.png::CompressedTexture2D::5447126488277111537::1689114996::1689115004::1::::<><>::
+MonstersBGLayer0.png::CompressedTexture2D::7380927430476095845::1689114996::1689115004::1::::<><>::
+MonstersBGLayer1.png::CompressedTexture2D::6766964640978094222::1689114996::1689115004::1::::<><>::
+MonstersBGLayer2.png::CompressedTexture2D::5632909017592913509::1689114996::1689115004::1::::<><>::
+MonstersBGLayer3.png::CompressedTexture2D::3238963447328516078::1689114996::1689115004::1::::<><>::
+MonstersBGLayer4.png::CompressedTexture2D::8068825617952286111::1689114996::1689115004::1::::<><>::
+MonstersBGLayer5.png::CompressedTexture2D::945592339947733989::1689114996::1689115004::1::::<><>::
+MonstersBGLayer6.png::CompressedTexture2D::5324893865115472797::1689114996::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/::1689114996
+::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/Gothic-Castle-Files/::1689114996
+::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/Gothic-Castle-Files/PNG/::1689115004
+gothic-castle-preview.png::CompressedTexture2D::6540151681221298028::1689114996::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/Gothic-Castle-Files/PNG/layers/::1689115004
+gothic-castle-background.png::CompressedTexture2D::1903324431982575772::1689114996::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/Gothic-Castle-Files/PNG/layers/TileSet/::1689115004
+gothic-castle-tileset.png::CompressedTexture2D::2229829890677188140::1689114996::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/Gothic-Castle-Files/PSD/::1689114996
+::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/Gothic-Horror-Files/::1689114996
+::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/Gothic-Horror-Files/PNG/::1689115004
+PREVIEW-gothic-horror.png::CompressedTexture2D::9161146315794043410::1689114996::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/Gothic-Horror-Files/PNG/layers/::1689115004
+clouds.png::CompressedTexture2D::3832234395303423374::1689114996::1689115004::1::::<><>::
+town.png::CompressedTexture2D::5512797105882069239::1689114996::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/Gothic-Horror-Files/PNG/layers/TileSet/::1689115004
+tiles.png::CompressedTexture2D::6062155634104533349::1689114996::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/Gothic-Horror-Files/PSD/::1689114996
+::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/night-town-background-files/::1689115004
+night-town-background-preview-LOW-RES.jpg::CompressedTexture2D::3554982690923751680::1689114996::1689115004::1::::<><>::
+night-town-background-previewx1.png::CompressedTexture2D::1069801745536912970::1689114996::1689115001::1::::<><>::
+night-town-background-previewx2.png::CompressedTexture2D::6916335509467255941::1689114996::1689115001::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/night-town-background-files/layers/::1689115004
+night-town-background-clouds.png::CompressedTexture2D::150960555512648660::1689114996::1689115004::1::::<><>::
+night-town-background-far-buildings.png::CompressedTexture2D::8047381932426448498::1689114996::1689115003::1::::<><>::
+night-town-background-forest.png::CompressedTexture2D::8808795798480820904::1689114996::1689115003::1::::<><>::
+night-town-background-mountains-lights.png::CompressedTexture2D::1093823844283895836::1689114996::1689115003::1::::<><>::
+night-town-background-mountains.png::CompressedTexture2D::8425570043822164120::1689114996::1689115002::1::::<><>::
+night-town-background-sky.png::CompressedTexture2D::5655062193651668388::1689114996::1689115001::1::::<><>::
+night-town-background-town.png::CompressedTexture2D::7143316275052890475::1689114996::1689115001::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/Old-dark-Castle-tileset-Files/::1689114996
+::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/Old-dark-Castle-tileset-Files/PNG/::1689115001
+old-dark-castle-interior-background.png::CompressedTexture2D::4612180163592121451::1689114996::1689115001::1::::<><>::
+preview-old-dark-castle-interior-tileset.png::CompressedTexture2D::2641494420349881555::1689114996::1689115001::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/Old-dark-Castle-tileset-Files/PNG/Tileset/::1689115002
+old-dark-castle-interior-tileset.png::CompressedTexture2D::4841583799880789106::1689114996::1689115002::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/Old-dark-Castle-tileset-Files/PSD/::1689114996
+::res://ASSETS PROPIOS/Assets Certus P/Sonido Enemigos/::1689114996
+::res://ASSETS PROPIOS/Assets Certus P/Sonido Enemigos/Horror SFX Free/::1689114998
+::res://ASSETS PROPIOS/Assets Certus P/Sonido Enemigos/Horror SFX Free/Ambient/::1689115006
+Air conditioner_Ambient.wav::AudioStreamWAV::5908374703112312865::1689114996::1689115005::1::::<><>::
+Crying_moaning_ambience_2.wav::AudioStreamWAV::6395663652448574360::1689114997::1689115006::1::::<><>::
+Glass_random tapping.wav::AudioStreamWAV::3618580166430665048::1689114997::1689115005::1::::<><>::
+Metal_random tapping.wav::AudioStreamWAV::3980081391193686846::1689114997::1689115005::1::::<><>::
+Metal_tapping.wav::AudioStreamWAV::8001533932077256719::1689114997::1689115005::1::::<><>::
+Old House_creeky metal and wood_ambiance_7.wav::AudioStreamWAV::2971393128612190506::1689114997::1689115005::1::::<><>::
+Radio_static.wav::AudioStreamWAV::3707923953907253241::1689114997::1689115005::1::::<><>::
+Rain_Medium_2.wav::AudioStreamWAV::9188570886952197636::1689114997::1689115006::1::::<><>::
+Scream.wav::AudioStreamWAV::1119742625838574307::1689114997::1689115005::1::::<><>::
+Tap_reverb.wav::AudioStreamWAV::897230596777351294::1689114997::1689115005::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sonido Enemigos/Horror SFX Free/Character/::1689115006
+Bag_searching.wav::AudioStreamWAV::1092298254509125269::1689114997::1689115005::1::::<><>::
+Box_searching.wav::AudioStreamWAV::720709950661534323::1689114997::1689115006::1::::<><>::
+Breathing_fast.wav::AudioStreamWAV::7813004182031646679::1689114997::1689115006::1::::<><>::
+Breathing_slow.wav::AudioStreamWAV::5854552300031597038::1689114997::1689115006::1::::<><>::
+Can_opening.wav::AudioStreamWAV::5145144387694667070::1689114997::1689115006::1::::<><>::
+Car_door_opening.wav::AudioStreamWAV::8272854057198554115::1689114997::1689115006::1::::<><>::
+Car_door_shutting.wav::AudioStreamWAV::5641867717875214590::1689114997::1689115006::1::::<><>::
+Flashlight off.wav::AudioStreamWAV::5156559478726530787::1689114997::1689115006::1::::<><>::
+Flashlight on.wav::AudioStreamWAV::8198557039180154281::1689114997::1689115006::1::::<><>::
+Footsteps_ running.wav::AudioStreamWAV::3762182373199738549::1689114997::1689115006::1::::<><>::
+Footsteps_walking.wav::AudioStreamWAV::4236796760356695143::1689114997::1689115006::1::::<><>::
+Gasp.wav::AudioStreamWAV::5211088121276955075::1689114997::1689115006::1::::<><>::
+Keys_pick up.wav::AudioStreamWAV::8170437058784502713::1689114997::1689115006::1::::<><>::
+Match_striking.wav::AudioStreamWAV::4170240257428381549::1689114997::1689115006::1::::<><>::
+Swoosh_3.wav::AudioStreamWAV::7493690663786267853::1689114997::1689115006::1::::<><>::
+Velcro.wav::AudioStreamWAV::8535024613084976973::1689114997::1689115006::1::::<><>::
+woosh.wav::AudioStreamWAV::4684183581060290230::1689114997::1689115006::1::::<><>::
+woosh_5.wav::AudioStreamWAV::3958528600188988544::1689114997::1689115006::1::::<><>::
+Zipper bag.wav::AudioStreamWAV::9005503972317280751::1689114997::1689115006::1::::<><>::
+Zipper up.wav::AudioStreamWAV::3065881023437462849::1689114997::1689115006::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sonido Enemigos/Horror SFX Free/House & Office/::1689115007
+Cabinet_shut.wav::AudioStreamWAV::256553358964264298::1689114997::1689115006::1::::<><>::
+Can_clink_4.wav::AudioStreamWAV::6635235126673890683::1689114997::1689115006::1::::<><>::
+Can_crush_3.wav::AudioStreamWAV::8680877958396767219::1689114997::1689115006::1::::<><>::
+Clock.wav::AudioStreamWAV::6350779232057833625::1689114997::1689115006::1::::<><>::
+Door_handle_jiggle_checking if locked.wav::AudioStreamWAV::4900979938884351508::1689114997::1689115006::1::::<><>::
+Door_knocking_quiet.wav::AudioStreamWAV::2118143998117970412::1689114998::1689115006::1::::<><>::
+Door_squeeky_2.wav::AudioStreamWAV::3514530974529799168::1689114998::1689115006::1::::<><>::
+Drill running.wav::AudioStreamWAV::2063088373921702905::1689114998::1689115006::1::::<><>::
+Drill starting.wav::AudioStreamWAV::6117929833411968999::1689114998::1689115006::1::::<><>::
+Drill turning off.wav::AudioStreamWAV::4130245565003608818::1689114998::1689115006::1::::<><>::
+Fast crank_2.wav::AudioStreamWAV::1175308118777406401::1689114998::1689115006::1::::<><>::
+Garage door.wav::AudioStreamWAV::1509601632133297825::1689114998::1689115006::1::::<><>::
+Gas funace_running.wav::AudioStreamWAV::2412688796456595485::1689114998::1689115007::1::::<><>::
+Metal scrape_scratch.wav::AudioStreamWAV::4819374688723321124::1689114998::1689115006::1::::<><>::
+Slow crank.wav::AudioStreamWAV::1751095127363463545::1689114998::1689115006::1::::<><>::
+switch.wav::AudioStreamWAV::9141836162979846193::1689114998::1689115006::1::::<><>::
+Typing.wav::AudioStreamWAV::9045778876995442220::1689114998::1689115006::1::::<><>::
+Writing.wav::AudioStreamWAV::7208302296269756821::1689114998::1689115006::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sonido Enemigos/Horror SFX Free/Liquids/::1689115006
+Bubbles.wav::AudioStreamWAV::8149108286840132436::1689114998::1689115006::1::::<><>::
+Liquid_plash poor.wav::AudioStreamWAV::39056049265964077::1689114998::1689115006::1::::<><>::
+Spray.wav::AudioStreamWAV::5065365787832755321::1689114998::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sonido Enemigos/Horror SFX Free/Monsters & Ghosts/::1689115006
+Bite.wav::AudioStreamWAV::441577242604980647::1689114998::1689115004::1::::<><>::
+Child laugh.wav::AudioStreamWAV::1779920866297887398::1689114998::1689115004::1::::<><>::
+Child laugh_7.wav::AudioStreamWAV::2777366623089759279::1689114998::1689115004::1::::<><>::
+Ghost chior.wav::AudioStreamWAV::3767443305984677936::1689114998::1689115004::1::::<><>::
+Ghost_moan_2.wav::AudioStreamWAV::520329482173816151::1689114998::1689115004::1::::<><>::
+Ghost_scream_3.wav::AudioStreamWAV::7902452365491443987::1689114998::1689115004::1::::<><>::
+Hiss.wav::AudioStreamWAV::3884527334773095078::1689114998::1689115006::1::::<><>::
+Laugh_spooky_4.wav::AudioStreamWAV::5776586988361613194::1689114998::1689115006::1::::<><>::
+Monster_grunt x2 (ghmmm).wav::AudioStreamWAV::7388268894081339761::1689114998::1689115006::1::::<><>::
+Monster_grunt_long.wav::AudioStreamWAV::5292341269926570464::1689114998::1689115006::1::::<><>::
+Monster_Mech.wav::AudioStreamWAV::5316450077847661816::1689114998::1689115006::1::::<><>::
+Monster_Roar_2.wav::AudioStreamWAV::2495246695297078890::1689114998::1689115006::1::::<><>::
+Monster_Roar_4.wav::AudioStreamWAV::8515161777554770214::1689114998::1689115005::1::::<><>::
+robotic_groan_3.wav::AudioStreamWAV::735394504401127898::1689114998::1689115005::1::::<><>::
+Zombie.wav::AudioStreamWAV::6001355713827367691::1689114998::1689115005::1::::<><>::
+Zombie_8.wav::AudioStreamWAV::8595514800387620156::1689114998::1689115005::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sonido Enemigos/Horror SFX Free/Stingers and Spooky Triggers/::1689115005
+Metal_resonance.wav::AudioStreamWAV::3879317362312255688::1689114998::1689115005::1::::<><>::
+Metal_twang.wav::AudioStreamWAV::4287092065701357018::1689114998::1689115005::1::::<><>::
+Piano_assending_dissonent.wav::AudioStreamWAV::7929903532384337059::1689114998::1689115005::1::::<><>::
+Piano_crescendo.wav::AudioStreamWAV::1190084092401995552::1689114998::1689115005::1::::<><>::
+Piano_stinger_dissonent.wav::AudioStreamWAV::7680235474478243607::1689114998::1689115005::1::::<><>::
+Piano_stinger_dissonent_2.wav::AudioStreamWAV::4092073722300405633::1689114998::1689115005::1::::<><>::
+Scratch_high pitch.wav::AudioStreamWAV::980268257133025206::1689114998::1689115005::1::::<><>::
+Stinger.wav::AudioStreamWAV::6177664729816038677::1689114998::1689115005::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/SoundTrack MainMenu/::1689115000
+Pantalla de inicio.mp3::AudioStreamMP3::6824263708243752449::1689114994::1689115000::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/SoundTracks de niveles/::1689115000
+Nivel 1.mp3::AudioStreamMP3::3153754182327008592::1689114994::1689115000::1::::<><>::
+Nivel 2.mp3::AudioStreamMP3::5501151938279846902::1689114994::1689115000::1::::<><>::
+Nivel 3.mp3::AudioStreamMP3::5494607257862346898::1689114994::1689115000::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/::1689114994
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 1/::1689114994
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 1/Eye ball Monster/::1689115001
+EyeBall Monster-Sheet.png::CompressedTexture2D::7313023657450041415::1689114994::1689115001::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 1/tooth walker/::1689115001
+tooth walker sprite-Sheet.png::CompressedTexture2D::8792656283120536745::1689114994::1689115001::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 1/Trash Monster/::1689115004
+cover.png::CompressedTexture2D::8775179446716758896::1689114994::1689115004::1::::<><>::
+Trash Monster-Sheet.png::CompressedTexture2D::3782587887294786543::1689114994::1689115004::1::::<><>::
+Trash Monster-Sprite V2.png::CompressedTexture2D::1684405078244465346::1689114994::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 2/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 2/Enemigo 1/::1689115004
+Monster1Pack.png::CompressedTexture2D::6827976486644331309::1689114994::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 2/Enemigo 2/::1689115004
+Monster2Pack.png::CompressedTexture2D::804683655093995396::1689114994::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 2/Enemigo 3/::1689115004
+Monster3Pack.png::CompressedTexture2D::2247686130680501081::1689114994::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 2/Enemigo 4/::1689115004
+Monster4Pack.png::CompressedTexture2D::513527778293038025::1689114994::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 2/Enemigo 5/::1689115004
+Monster5Pack.png::CompressedTexture2D::6251051918086243929::1689114994::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 2/Enemigo 6/::1689115004
+Monster6Pack.png::CompressedTexture2D::658545379773707810::1689114994::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 2/Enemigo 7/::1689115004
+Monster7Pack.png::CompressedTexture2D::1914496042409239011::1689114995::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 2/Enemigo 8/::1689115004
+Monster8Pack.png::CompressedTexture2D::1647060963906580252::1689114995::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 2/Enemigo 9/::1689115004
+Monster9Pack.png::CompressedTexture2D::4901083545215452131::1689114995::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 1/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 1/GIFS/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 1/PNG/::1689115004
+ghost-appears.png::CompressedTexture2D::2295198846895803203::1689114995::1689115004::1::::<><>::
+ghost-idle.png::CompressedTexture2D::1814430591648481157::1689114995::1689115004::1::::<><>::
+ghost-shriek.png::CompressedTexture2D::6859492354398540081::1689114995::1689115004::1::::<><>::
+ghost-vanish.png::CompressedTexture2D::3605181112141979176::1689114995::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 1/PSD/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 2/::1689115004
+get-more.jpg::CompressedTexture2D::5577001835785089719::1689114995::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 2/GIFS/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 2/PNG/::1689115004
+hell-hound-idle.png::CompressedTexture2D::6397423843009868445::1689114995::1689115004::1::::<><>::
+hell-hound-jump.png::CompressedTexture2D::3220773986912567402::1689114995::1689115004::1::::<><>::
+hell-hound-run.png::CompressedTexture2D::1650232518093721767::1689114995::1689115004::1::::<><>::
+hell-hound-walk.png::CompressedTexture2D::2637598109579013427::1689114995::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 2/PSD/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 3/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 3/GIF/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 3/GIF/with-stroke/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 3/GIF/without-stroke/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 3/PNG/::1689115004
+fire-ball.png::CompressedTexture2D::7206644682186490535::1689114995::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 3/PNG/with-stroke/::1689115004
+hell-beast-breath.png::CompressedTexture2D::3701497418921624191::1689114995::1689115004::1::::<><>::
+hell-beast-burn.png::CompressedTexture2D::5324684908484964633::1689114995::1689115004::1::::<><>::
+hell-beast-idle.png::CompressedTexture2D::6067215908777493432::1689114995::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 3/PSD/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 4/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 4/GIFS/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 4/PNG/::1689115004
+breath-fire.png::CompressedTexture2D::2207020462253038148::1689114995::1689115004::1::::<><>::
+breath.png::CompressedTexture2D::5192240554209812848::1689114995::1689115004::1::::<><>::
+demon-attack-no-breath.png::CompressedTexture2D::5632145992375561171::1689114995::1689115004::1::::<><>::
+demon-attack.png::CompressedTexture2D::227904545896911345::1689114995::1689115004::1::::<><>::
+demon-idle.png::CompressedTexture2D::1295816674275681991::1689114995::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 4/PSD/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 5/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 5/GIFS/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 5/PNG/::1689115004
+nightmare-galloping.png::CompressedTexture2D::3978922606693981799::1689114995::1689115004::1::::<><>::
+nightmare-idle.png::CompressedTexture2D::2822451645523122252::1689114995::1689115001::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 5/PSD/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 6/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 6/GIF/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 6/PNG/::1689115001
+fire-skull-no-fire.png::CompressedTexture2D::1931128551088989309::1689114995::1689115001::1::::<><>::
+fire-skull.png::CompressedTexture2D::8649231009924231395::1689114995::1689115001::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo 6/PSD/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo random xd/::1689114996
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo random xd/previews/::1689114995
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo random xd/PSD/::1689114996
+::res://ASSETS PROPIOS/Assets Certus P/Sprays/Enemigos/Nivel 3/Enemigo random xd/sprites/::1689115001
+wolf-runing-cycle-skin.png::CompressedTexture2D::8902833965766261097::1689114996::1689115001::1::::<><>::
+wolf-runing-cycle.png::CompressedTexture2D::2605028988813795337::1689114996::1689115001::1::::<><>::
+::res://ASSETS PROPIOS/Assets PNG/::1689114708
+::res://ASSETS PROPIOS/Assets PNG/PNG/::1689114712
+::res://ASSETS PROPIOS/Assets PNG/PNG/War1/::1689114709
+::res://ASSETS PROPIOS/Assets PNG/PNG/War1/Bright/::1689114717
+crater1.png::CompressedTexture2D::672345168416795733::1689114708::1689114716::1::::<><>::
+crater2.png::CompressedTexture2D::8660723546102042834::1689114708::1689114716::1::::<><>::
+crater3.png::CompressedTexture2D::1960043431392263643::1689114708::1689114716::1::::<><>::
+fence.png::CompressedTexture2D::4776351081651820971::1689114708::1689114716::1::::<><>::
+house3.png::CompressedTexture2D::7313475157543029258::1689114708::1689114716::1::::<><>::
+houses1.png::CompressedTexture2D::6582104750039144259::1689114708::1689114716::1::::<><>::
+houses2.png::CompressedTexture2D::2698879756028992813::1689114708::1689114716::1::::<><>::
+road.png::CompressedTexture2D::3972674078087652594::1689114708::1689114717::1::::<><>::
+ruins.png::CompressedTexture2D::1020180590750336259::1689114708::1689114716::1::::<><>::
+sky.png::CompressedTexture2D::5084484402655992032::1689114708::1689114716::1::::<><>::
+sun.png::CompressedTexture2D::7870416074979544474::1689114708::1689114716::1::::<><>::
+War.png::CompressedTexture2D::6989531134435011996::1689114709::1689114717::1::::<><>::
+::res://ASSETS PROPIOS/Assets PNG/PNG/War1/Pale/::1689114717
+crater1.png::CompressedTexture2D::3503674736037821564::1689114709::1689114717::1::::<><>::
+crater2.png::CompressedTexture2D::8853460295358048665::1689114709::1689114717::1::::<><>::
+crater3.png::CompressedTexture2D::68846504554654369::1689114709::1689114717::1::::<><>::
+fence.png::CompressedTexture2D::8854142526362380885::1689114709::1689114717::1::::<><>::
+house3.png::CompressedTexture2D::3678946243117826306::1689114709::1689114717::1::::<><>::
+houses1.png::CompressedTexture2D::3926907320248052773::1689114709::1689114717::1::::<><>::
+houses2.png::CompressedTexture2D::2380495880423857765::1689114709::1689114717::1::::<><>::
+road.png::CompressedTexture2D::733911090389237223::1689114709::1689114717::1::::<><>::
+ruins.png::CompressedTexture2D::5989281168392967303::1689114709::1689114717::1::::<><>::
+sky.png::CompressedTexture2D::4544450826256769066::1689114709::1689114717::1::::<><>::
+sun.png::CompressedTexture2D::4302916028841119157::1689114709::1689114717::1::::<><>::
+War.png::CompressedTexture2D::5517575164033199864::1689114709::1689114717::1::::<><>::
+::res://ASSETS PROPIOS/Assets PNG/PNG/War2/::1689114710
+::res://ASSETS PROPIOS/Assets PNG/PNG/War2/Bright/::1689114718
+cracks1.png::CompressedTexture2D::1806020655933884274::1689114709::1689114718::1::::<><>::
+cracks2.png::CompressedTexture2D::1359286663760556985::1689114709::1689114718::1::::<><>::
+houses1.png::CompressedTexture2D::5258144460211937295::1689114710::1689114718::1::::<><>::
+houses2.png::CompressedTexture2D::7992011767915611538::1689114710::1689114718::1::::<><>::
+houses3.png::CompressedTexture2D::1109564349681382850::1689114710::1689114718::1::::<><>::
+houses4.png::CompressedTexture2D::1421061504985262789::1689114710::1689114714::1::::<><>::
+road.png::CompressedTexture2D::7158640778457763420::1689114710::1689114714::1::::<><>::
+sky.png::CompressedTexture2D::4357792322429497494::1689114710::1689114714::1::::<><>::
+wall.png::CompressedTexture2D::8360799480014121865::1689114710::1689114714::1::::<><>::
+War2.png::CompressedTexture2D::7536556273806364612::1689114710::1689114714::1::::<><>::
+::res://ASSETS PROPIOS/Assets PNG/PNG/War2/Pale/::1689114715
+cracks1.png::CompressedTexture2D::8790612409472379031::1689114710::1689114714::1::::<><>::
+cracks2.png::CompressedTexture2D::4251646937910006316::1689114710::1689114714::1::::<><>::
+houses1.png::CompressedTexture2D::4847843845609911794::1689114710::1689114714::1::::<><>::
+houses2.png::CompressedTexture2D::2771318490351929131::1689114710::1689114714::1::::<><>::
+houses3.png::CompressedTexture2D::5671611653883101421::1689114710::1689114715::1::::<><>::
+houses4.png::CompressedTexture2D::2523737441418517881::1689114710::1689114715::1::::<><>::
+road.png::CompressedTexture2D::7349388744756198650::1689114710::1689114715::1::::<><>::
+sky.png::CompressedTexture2D::3229371590422968750::1689114710::1689114715::1::::<><>::
+wall.png::CompressedTexture2D::322739791364134633::1689114710::1689114715::1::::<><>::
+War2.png::CompressedTexture2D::4681579046106771516::1689114710::1689114715::1::::<><>::
+::res://ASSETS PROPIOS/Assets PNG/PNG/War3/::1689114711
+::res://ASSETS PROPIOS/Assets PNG/PNG/War3/Bright/::1689114716
+bricks1.png::CompressedTexture2D::5124736165547088099::1689114710::1689114715::1::::<><>::
+bricks2.png::CompressedTexture2D::5474845415193844235::1689114710::1689114715::1::::<><>::
+bricks3.png::CompressedTexture2D::8420102840889059462::1689114711::1689114715::1::::<><>::
+fence.png::CompressedTexture2D::1351442453720510001::1689114711::1689114715::1::::<><>::
+house&fountain.png::CompressedTexture2D::3627185217411936658::1689114711::1689114715::1::::<><>::
+houses2.png::CompressedTexture2D::4792638039962607642::1689114711::1689114715::1::::<><>::
+houses3.png::CompressedTexture2D::650891859273168862::1689114711::1689114715::1::::<><>::
+road.png::CompressedTexture2D::40127780099515308::1689114711::1689114716::1::::<><>::
+sky.png::CompressedTexture2D::4015465954803124178::1689114711::1689114715::1::::<><>::
+sky_sun.png::CompressedTexture2D::6632691301438125721::1689114711::1689114715::1::::<><>::
+trees.png::CompressedTexture2D::4243021994937077065::1689114711::1689114716::1::::<><>::
+War3.png::CompressedTexture2D::3171094715347067503::1689114711::1689114716::1::::<><>::
+::res://ASSETS PROPIOS/Assets PNG/PNG/War3/Pale/::1689114719
+bricks1.png::CompressedTexture2D::6750159668705404282::1689114711::1689114716::1::::<><>::
+bricks2.png::CompressedTexture2D::7066773050735373043::1689114711::1689114719::1::::<><>::
+bricks3.png::CompressedTexture2D::4629209147585235337::1689114711::1689114719::1::::<><>::
+fence.png::CompressedTexture2D::1372452537504822015::1689114711::1689114719::1::::<><>::
+house&fountain.png::CompressedTexture2D::4834078849827865932::1689114711::1689114719::1::::<><>::
+houses2.png::CompressedTexture2D::4085684695401385191::1689114711::1689114719::1::::<><>::
+houses3.png::CompressedTexture2D::7719924175202714284::1689114712::1689114719::1::::<><>::
+road.png::CompressedTexture2D::8244271970705411622::1689114712::1689114719::1::::<><>::
+sky.png::CompressedTexture2D::5142130222935858364::1689114712::1689114719::1::::<><>::
+sky_sun.png::CompressedTexture2D::2375335796672783571::1689114712::1689114719::1::::<><>::
+trees.png::CompressedTexture2D::6900189860893701289::1689114712::1689114719::1::::<><>::
+War3.png::CompressedTexture2D::6871475358891462436::1689114712::1689114719::1::::<><>::
+::res://ASSETS PROPIOS/Assets PNG/PNG/War4/::1689114719
+0.png::CompressedTexture2D::7008366900776051520::1689114712::1689114718::1::::<><>::
+00.png::CompressedTexture2D::7985413297104818373::1689114712::1689114718::1::::<><>::
+000.png::CompressedTexture2D::5347454971163979389::1689114712::1689114719::1::::<><>::
+0000.png::CompressedTexture2D::3988293753180481736::1689114712::1689114719::1::::<><>::
+::res://ASSETS PROPIOS/Assets PNG/PNG/War4/Bright/::1689114720
+houses1.png::CompressedTexture2D::7018512092577572674::1689114712::1689114719::1::::<><>::
+houses2.png::CompressedTexture2D::485751477087587825::1689114712::1689114720::1::::<><>::
+houses3.png::CompressedTexture2D::8460022640020589125::1689114712::1689114720::1::::<><>::
+houses4.png::CompressedTexture2D::375936047466978993::1689114712::1689114720::1::::<><>::
+moon.png::CompressedTexture2D::8001537101401419343::1689114712::1689114720::1::::<><>::
+Moon_asset.png::CompressedTexture2D::7755073827980806560::1689114712::1689114720::1::::<><>::
+road.png::CompressedTexture2D::3278933042213024450::1689114712::1689114720::1::::<><>::
+sky.png::CompressedTexture2D::9144931975888982878::1689114712::1689114720::1::::<><>::
+wall.png::CompressedTexture2D::8573883477748381412::1689114712::1689114720::1::::<><>::
+War4.png::CompressedTexture2D::7049178778862702524::1689114712::1689114720::1::::<><>::
+wheels2.png::CompressedTexture2D::4014835419999799882::1689114712::1689114720::1::::<><>::
+wheels3.png::CompressedTexture2D::4566609917048310010::1689114712::1689114720::1::::<><>::
+wheels.png::CompressedTexture2D::2491714797587714619::1689114712::1689114720::1::::<><>::
+::res://ASSETS PROPIOS/Assets PNG/PNG/War4/Pale/::1689114721
+houses1.png::CompressedTexture2D::6451102436943455180::1689114712::1689114720::1::::<><>::
+houses2.png::CompressedTexture2D::8976028050640545457::1689114712::1689114720::1::::<><>::
+houses3.png::CompressedTexture2D::5727377828719717765::1689114712::1689114720::1::::<><>::
+houses4.png::CompressedTexture2D::8334823011269084312::1689114712::1689114720::1::::<><>::
+moon.png::CompressedTexture2D::4332556438500093326::1689114712::1689114721::1::::<><>::
+Moon_asset.png::CompressedTexture2D::7703135007747916662::1689114712::1689114718::1::::<><>::
+road.png::CompressedTexture2D::3476654263478230597::1689114712::1689114718::1::::<><>::
+sky.png::CompressedTexture2D::57518417414087191::1689114712::1689114718::1::::<><>::
+wall.png::CompressedTexture2D::3560935898617966833::1689114712::1689114718::1::::<><>::
+War4.png::CompressedTexture2D::7332906544216889171::1689114713::1689114718::1::::<><>::
+wheels2.png::CompressedTexture2D::2286310681211629263::1689114713::1689114718::1::::<><>::
+wheels3.png::CompressedTexture2D::8960740239553488590::1689114713::1689114718::1::::<><>::
+wheels.png::CompressedTexture2D::7998116427139450476::1689114713::1689114718::1::::<><>::
+::res://ASSETS PROPIOS/Sprites/::1687715739
+::res://ASSETS PROPIOS/Sprites/Player/::1687718215
+::res://ASSETS PROPIOS/Sprites/Player/Idle/::1687288713
+Idle0000.png::CompressedTexture2D::3870592583370407339::1687288712::1687288712::1::::<><>::
+Idle0001.png::CompressedTexture2D::6293452335146540636::1687288712::1687288712::1::::<><>::
+Idle0002.png::CompressedTexture2D::9168561724564099313::1687288712::1687288712::1::::<><>::
+Idle0003.png::CompressedTexture2D::7605055092148049860::1687288712::1687288712::1::::<><>::
+Idle0004.png::CompressedTexture2D::1331392125294615424::1687288712::1687288713::1::::<><>::
+::res://ASSETS PROPIOS/Sprites/Player/Jump/::1687288936
+Jump0000.png::CompressedTexture2D::6448163726333775779::1687288931::1687288936::1::::<><>::
+Jump0001.png::CompressedTexture2D::8412534622494818275::1687288928::1687288936::1::::<><>::
+::res://ASSETS PROPIOS/Sprites/Player/Run/::1687718217
+Run0000.png::CompressedTexture2D::1372576146906805612::1687718209::1687718216::1::::<><>::
+Run0001.png::CompressedTexture2D::4339882124581317600::1687718209::1687718216::1::::<><>::
+Run0002.png::CompressedTexture2D::9095660860659999248::1687718209::1687718216::1::::<><>::
+Run0003.png::CompressedTexture2D::2476195223523815621::1687718209::1687718216::1::::<><>::
+Run0004.png::CompressedTexture2D::5011570808557625434::1687718209::1687718216::1::::<><>::
+Run0005.png::CompressedTexture2D::2447070222041934027::1687718209::1687718216::1::::<><>::
+Run0006.png::CompressedTexture2D::6155772565022378071::1687718209::1687718216::1::::<><>::
+Run0007.png::CompressedTexture2D::8948130234956097102::1687718209::1687718216::1::::<><>::
+::res://Collectables/::1689110154
+Cherry.tscn::PackedScene::6333534617157171025::1689110154::0::1::::<><>::uid://b1id76inj6rio<>uid://ubwvydlus72g<>uid://c53ybomse1u8o<>uid://6usmdpxeg7tw<>uid://bmn6r778c3ube<>uid://dw303fllrwohf<>uid://fswfd4golmnw
 ::res://Global/::1686015499
 Game.gd::GDScript::-1::1685988049::0::1::::<>Node<>::
 Utils.gd::GDScript::-1::1685990352::0::1::::<>Node<>::

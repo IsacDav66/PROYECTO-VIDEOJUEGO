@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dk8kl8u1ycdu6"
+path="res://.godot/imported/Piano_assending_dissonent.wav-fbb59d6264c0ec84650d0e1276fd14f4.sample"
+
+[deps]
+
+source_file="res://ASSETS PROPIOS/Assets Certus P/Sonido Enemigos/Horror SFX Free/Stingers and Spooky Triggers/Piano_assending_dissonent.wav"
+dest_files=["res://.godot/imported/Piano_assending_dissonent.wav-fbb59d6264c0ec84650d0e1276fd14f4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

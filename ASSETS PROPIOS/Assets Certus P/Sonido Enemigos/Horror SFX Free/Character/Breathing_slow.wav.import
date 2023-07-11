@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cpn8vd5ul6w4u"
+path="res://.godot/imported/Breathing_slow.wav-b382f7589b28c405d1d92cb1df19eee0.sample"
+
+[deps]
+
+source_file="res://ASSETS PROPIOS/Assets Certus P/Sonido Enemigos/Horror SFX Free/Character/Breathing_slow.wav"
+dest_files=["res://.godot/imported/Breathing_slow.wav-b382f7589b28c405d1d92cb1df19eee0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

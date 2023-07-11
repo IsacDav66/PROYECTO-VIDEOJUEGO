@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ddi6yd5g4lbs8"
+path="res://.godot/imported/Monster_grunt x2 (ghmmm).wav-05bd83afb11d0c60d25849d0bb50f354.sample"
+
+[deps]
+
+source_file="res://ASSETS PROPIOS/Assets Certus P/Sonido Enemigos/Horror SFX Free/Monsters & Ghosts/Monster_grunt x2 (ghmmm).wav"
+dest_files=["res://.godot/imported/Monster_grunt x2 (ghmmm).wav-05bd83afb11d0c60d25849d0bb50f354.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

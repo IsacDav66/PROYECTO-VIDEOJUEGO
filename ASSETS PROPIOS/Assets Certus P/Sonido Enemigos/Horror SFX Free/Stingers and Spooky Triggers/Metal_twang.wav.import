@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b2cx1rv7ey8py"
+path="res://.godot/imported/Metal_twang.wav-3b8c4fb3e2f1f3a9e6d3e922a959594b.sample"
+
+[deps]
+
+source_file="res://ASSETS PROPIOS/Assets Certus P/Sonido Enemigos/Horror SFX Free/Stingers and Spooky Triggers/Metal_twang.wav"
+dest_files=["res://.godot/imported/Metal_twang.wav-3b8c4fb3e2f1f3a9e6d3e922a959594b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

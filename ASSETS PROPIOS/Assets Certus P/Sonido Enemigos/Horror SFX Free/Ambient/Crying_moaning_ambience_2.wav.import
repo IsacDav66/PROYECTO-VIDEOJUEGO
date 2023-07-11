@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cxedv7x61dqs3"
+path="res://.godot/imported/Crying_moaning_ambience_2.wav-5b65838a5411c9e668b2608d3786e829.sample"
+
+[deps]
+
+source_file="res://ASSETS PROPIOS/Assets Certus P/Sonido Enemigos/Horror SFX Free/Ambient/Crying_moaning_ambience_2.wav"
+dest_files=["res://.godot/imported/Crying_moaning_ambience_2.wav-5b65838a5411c9e668b2608d3786e829.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

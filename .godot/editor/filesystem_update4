@@ -1,7 +1,7 @@
 res://Main.tscn
 res://juego.tscn
-res://player.tscn
 res://bg.tscn
 res://Frog.tscn
 res://ShaderP.tscn
 res://Collectables/Cherry.tscn
+res://player.tscn
