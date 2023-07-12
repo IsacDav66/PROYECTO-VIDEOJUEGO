@@ -1,13 +1,20 @@
-[gd_scene load_steps=28 format=3 uid="uid://vwogb88jcwl2"]
+[gd_scene load_steps=36 format=3 uid="uid://vwogb88jcwl2"]
 
 [ext_resource type="Texture2D" uid="uid://cjnoj8y3emv3s" path="res://Sunny-land-files/Sunny-land-assets-files/PNG/spritesheets/player-crouch.png" id="1_22h6n"]
 [ext_resource type="Script" path="res://player.gd" id="1_ylyea"]
 [ext_resource type="Texture2D" uid="uid://bve7dhch5yd2j" path="res://ASSETS PROPIOS/Sprites/Player/Idle/Idle0000.png" id="3_1x4hd"]
+[ext_resource type="Texture2D" uid="uid://dwnv2dpur5era" path="res://ASSETS PROPIOS/Sprites/Player/Disparo/Shot0007.png" id="3_qqnvl"]
 [ext_resource type="Texture2D" uid="uid://cvwuif8vmhujc" path="res://ASSETS PROPIOS/Sprites/Player/Idle/Idle0001.png" id="4_50o7a"]
+[ext_resource type="Texture2D" uid="uid://rphf6x817mih" path="res://ASSETS PROPIOS/Sprites/Player/Disparo/Shot0008.png" id="4_pwy0w"]
 [ext_resource type="Texture2D" uid="uid://d3vk4wdpdb2fd" path="res://ASSETS PROPIOS/Sprites/Player/Idle/Idle0002.png" id="5_6xu7y"]
+[ext_resource type="Texture2D" uid="uid://qfgo25gjxsww" path="res://ASSETS PROPIOS/Sprites/Player/Disparo/Shot0009.png" id="5_s8aci"]
+[ext_resource type="Texture2D" uid="uid://nmmer4afimt6" path="res://ASSETS PROPIOS/Sprites/Player/Disparo/Shot0010.png" id="6_017ho"]
 [ext_resource type="Texture2D" uid="uid://dgl7e8coedwgi" path="res://ASSETS PROPIOS/Sprites/Player/Idle/Idle0003.png" id="6_x56pu"]
+[ext_resource type="Texture2D" uid="uid://bnc1nhmwxp3x3" path="res://ASSETS PROPIOS/Sprites/Player/Disparo/Shot0011.png" id="7_8mw3k"]
 [ext_resource type="Texture2D" uid="uid://s763l4cu6w8o" path="res://ASSETS PROPIOS/Sprites/Player/Idle/Idle0004.png" id="7_k14op"]
 [ext_resource type="Texture2D" uid="uid://cx4skxsqtjfp0" path="res://ASSETS PROPIOS/Sprites/Player/Jump/Jump0000.png" id="8_a6b6m"]
+[ext_resource type="Texture2D" uid="uid://d1d4dldhkllyg" path="res://ASSETS PROPIOS/Sprites/Player/Disparo/Shot0012.png" id="8_p5aad"]
+[ext_resource type="Texture2D" uid="uid://cgfkwls0uexsf" path="res://ASSETS PROPIOS/Sprites/Player/Disparo/Shot0013.png" id="9_am12i"]
 [ext_resource type="Texture2D" uid="uid://dr4dhl4nobh84" path="res://ASSETS PROPIOS/Sprites/Player/Jump/Jump0001.png" id="9_w237r"]
 [ext_resource type="Texture2D" uid="uid://ts5emwvyj253" path="res://ASSETS PROPIOS/Sprites/Player/Run/Run0000.png" id="10_w7v7n"]
 [ext_resource type="Texture2D" uid="uid://b23jhvs2x3jlw" path="res://ASSETS PROPIOS/Sprites/Player/Run/Run0001.png" id="11_2euvy"]
@@ -41,6 +48,32 @@ animations = [{
 "loop": true,
 "name": &"Crounch",
 "speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_qqnvl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_pwy0w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_s8aci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_017ho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_8mw3k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_p5aad")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_am12i")
+}],
+"loop": true,
+"name": &"Disparo",
+"speed": 15.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -102,6 +135,34 @@ animations = [{
 "name": &"Run",
 "speed": 10.0
 }]
+
+[sub_resource type="Animation" id="Animation_tkro6"]
+resource_name = "Disparo"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"Disparo"]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 6]
+}
 
 [sub_resource type="Animation" id="Animation_nkn6t"]
 resource_name = "Fall"
@@ -200,6 +261,18 @@ tracks/0/keys = {
 "update": 1,
 "values": [1]
 }
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [&"Disparo"]
+}
 
 [sub_resource type="Animation" id="Animation_w5bfq"]
 resource_name = "Run"
@@ -232,6 +305,7 @@ tracks/1/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_atdhh"]
 _data = {
+"Disparo": SubResource("Animation_tkro6"),
 "Fall": SubResource("Animation_nkn6t"),
 "Idle": SubResource("Animation_cw235"),
 "Jump": SubResource("Animation_c57ep"),
@@ -251,8 +325,7 @@ shape = SubResource("CapsuleShape2D_43s2h")
 texture_filter = 1
 position = Vector2(5, -16)
 sprite_frames = SubResource("SpriteFrames_43cy8")
-animation = &"Run"
-frame = 1
+animation = &"Disparo"
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(1.6, 1.6)
@@ -264,3 +337,8 @@ autoplay = "Idle"
 libraries = {
 "": SubResource("AnimationLibrary_atdhh")
 }
+
+[node name="Shoot" type="Marker2D" parent="."]
+
+[node name="Direction" type="Marker2D" parent="Shoot"]
+position = Vector2(23, -4)

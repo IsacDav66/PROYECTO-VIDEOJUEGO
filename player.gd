@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-
+var Bala = preload("res://Bala.tscn")
 const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
 
@@ -10,6 +10,8 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 
 func _physics_process(delta):
+	if Input.is_action_just_pressed("ui_up"):
+		shootIce()
 	# Add the gravity.
 	if not is_on_floor():
 		velocity.y += gravity * delta
@@ -42,9 +44,24 @@ func _physics_process(delta):
 	if velocity.y >0:
 		anim.play("Fall")
 		#print("Fall")
-
+		
 	move_and_slide()
 	
 	if Game.playerHP <= 0:
 		queue_free()
 		get_tree().change_scene_to_file("res://Main.tscn")
+
+
+func  shootIce():
+	var shoot_ice = Bala.instantiate()
+	if $AnimatedSprite2D.flip_h:
+		$Shoot.scale.x = -1
+		shoot_ice.scale = Vector2(-2.3, 2.3)
+		
+	else:
+		$Shoot.scale.x = 1
+		shoot_ice.scale = Vector2(2.3, 2.3)
+		
+		
+	shoot_ice.global_position = $Shoot/Direction.global_position
+	get_tree().call_group("Mundo", "add_child", shoot_ice)

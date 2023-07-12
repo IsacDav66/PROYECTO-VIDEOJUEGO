@@ -1,8 +1,13 @@
-Timer
+AnimationPlayer
+Marker2D
 Node2D
-Node
-AnimatedSprite2D
+VisibleOnScreenEnabler2D
 CollisionShape2D
+AnimatedSprite2D
+Sprite2D
+StaticBody2D
+Timer
+Node
 Area2D
 Label
 CanvasLayer
@@ -15,9 +20,7 @@ TileMap
 ParallaxLayer
 ParallaxBackground
 AnimationTree
-AnimationPlayer
 Camera2D
-StaticBody2D
 Panel
 Button
 RichTextLabel

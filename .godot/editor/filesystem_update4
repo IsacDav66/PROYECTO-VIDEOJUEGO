@@ -1,7 +1,9 @@
-res://Main.tscn
+res://Bala.gd
+res://player.tscn
+res://player.gd
 res://juego.tscn
+res://Bala.tscn
+res://Main.tscn
 res://bg.tscn
 res://Frog.tscn
 res://ShaderP.tscn
-res://Collectables/Cherry.tscn
-res://player.tscn

@@ -1,19 +1,21 @@
 2a60927148abd1d33b818b535e306557
-::res://::1689114785
-BG.gd::GDScript::-1::1685651596::0::1::::<>ParallaxBackground<>::
-bg.tscn::PackedScene::8030376368300069441::1689110154::0::1::::<><>::res://BG.gd<>uid://b0ukl1i2dusc<>uid://dpjdpwjnryke5
+::res://::1689134473
+BG.gd::GDScript::-1::1689116593::0::1::::<>ParallaxBackground<>::
+bg.tscn::PackedScene::8030376368300069441::1689134471::0::1::::<><>::res://BG.gd<>uid://b0ukl1i2dusc<>uid://dpjdpwjnryke5
 ColorRect.gd::GDScript::-1::1685892158::0::1::::<>ColorRect<>::
 Frog.gd::GDScript::-1::1685990951::0::1::::<>CharacterBody2D<>::
-Frog.tscn::PackedScene::7570837858290704521::1689110154::0::1::::<><>::res://Frog.gd<>uid://84lvd46442ey<>uid://dq1i6ksrfhhhq<>uid://b6ato7xv73yo1
+Frog.tscn::PackedScene::7570837858290704521::1689134471::0::1::::<><>::res://Frog.gd<>uid://84lvd46442ey<>uid://dq1i6ksrfhhhq<>uid://b6ato7xv73yo1
 icon.svg::CompressedTexture2D::8058093968977246105::1685021888::1685021894::1::::<><>::
 juego.gd::GDScript::-1::1685026362::0::1::::<>Node2D<>::
-juego.tscn::PackedScene::5326863850535771265::1689110153::0::1::::<><>::res://juego.gd<>res://BG.gd<>uid://vwogb88jcwl2<>uid://bo4d1olwehff1<>uid://b0ukl1i2dusc<>uid://df4muf8q45mn6
+juego.tscn::PackedScene::5326863850535771265::1689134471::0::1::::<><>::res://juego.gd<>res://BG.gd<>uid://vwogb88jcwl2<>uid://bo4d1olwehff1<>uid://csms22fas7m0d<>uid://buumltyyjwxow<>uid://df4muf8q45mn6
 Main.gd::GDScript::-1::1685990216::0::1::::<>Node2D<>::
-Main.tscn::PackedScene::6781173651704484622::1689110151::0::1::::<><>::res://Main.gd<>uid://dmn8ejd7tullp
-player.gd::GDScript::-1::1685990543::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::1520242884663551337::1689110154::0::1::::<><>::uid://cjnoj8y3emv3s<>res://player.gd<>uid://bve7dhch5yd2j<>uid://cvwuif8vmhujc<>uid://d3vk4wdpdb2fd<>uid://dgl7e8coedwgi<>uid://s763l4cu6w8o<>uid://cx4skxsqtjfp0<>uid://dr4dhl4nobh84<>uid://ts5emwvyj253<>uid://b23jhvs2x3jlw<>uid://d2uag8sjrnnca<>uid://bbjqtra857qaf<>uid://cdnv3r50adyb7<>uid://ba4m5hywjj724<>uid://ctx5w7bn35pw6<>uid://d0qsnrwrlsh0a
+Main.tscn::PackedScene::6781173651704484622::1689134469::0::1::::<><>::res://Main.gd<>uid://dmn8ejd7tullp
+player.gd::GDScript::-1::1689134469::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::1520242884663551337::1689134472::0::1::::<><>::uid://cjnoj8y3emv3s<>res://player.gd<>uid://bve7dhch5yd2j<>uid://dwnv2dpur5era<>uid://cvwuif8vmhujc<>uid://rphf6x817mih<>uid://d3vk4wdpdb2fd<>uid://qfgo25gjxsww<>uid://nmmer4afimt6<>uid://dgl7e8coedwgi<>uid://bnc1nhmwxp3x3<>uid://s763l4cu6w8o<>uid://cx4skxsqtjfp0<>uid://d1d4dldhkllyg<>uid://cgfkwls0uexsf<>uid://dr4dhl4nobh84<>uid://ts5emwvyj253<>uid://b23jhvs2x3jlw<>uid://d2uag8sjrnnca<>uid://bbjqtra857qaf<>uid://cdnv3r50adyb7<>uid://ba4m5hywjj724<>uid://ctx5w7bn35pw6<>uid://d0qsnrwrlsh0a
 README.md::TextFile::-1::1686015789::0::1::::<><>::
-ShaderP.tscn::PackedScene::5751847006803727918::1689110154::0::1::::<><>::
+Bala.tscn::PackedScene::3943346699395409788::1689134473::0::1::::<><>::res://Bala.gd<>uid://dlycixslqchhg
+Bala.gd::GDScript::-1::1689125168::0::1::::<>StaticBody2D<>::
+ShaderP.tscn::PackedScene::5751847006803727918::1689134472::0::1::::<><>::
 ::res://ASSETS PROPIOS/::1689114970
 ::res://ASSETS PROPIOS/Assets Certus P/::1689114996
 ::res://ASSETS PROPIOS/Assets Certus P/BG/::1689114996
@@ -38,10 +40,10 @@ gothic-castle-tileset.png::CompressedTexture2D::2229829890677188140::1689114996:
 ::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/Gothic-Horror-Files/::1689114996
 ::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/Gothic-Horror-Files/PNG/::1689115004
 PREVIEW-gothic-horror.png::CompressedTexture2D::9161146315794043410::1689114996::1689115004::1::::<><>::
-::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/Gothic-Horror-Files/PNG/layers/::1689115004
-clouds.png::CompressedTexture2D::3832234395303423374::1689114996::1689115004::1::::<><>::
+::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/Gothic-Horror-Files/PNG/layers/::1689115878
 town.png::CompressedTexture2D::5512797105882069239::1689114996::1689115004::1::::<><>::
-::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/Gothic-Horror-Files/PNG/layers/TileSet/::1689115004
+::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/Gothic-Horror-Files/PNG/layers/TileSet/::1689115880
+clouds.png::CompressedTexture2D::3832234395303423374::1689114996::1689115880::1::::<><>::
 tiles.png::CompressedTexture2D::6062155634104533349::1689114996::1689115004::1::::<><>::
 ::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/Gothic-Horror-Files/PSD/::1689114996
 ::res://ASSETS PROPIOS/Assets Certus P/BG/Nivel 3/night-town-background-files/::1689115004
@@ -350,8 +352,18 @@ War4.png::CompressedTexture2D::7332906544216889171::1689114713::1689114718::1:::
 wheels2.png::CompressedTexture2D::2286310681211629263::1689114713::1689114718::1::::<><>::
 wheels3.png::CompressedTexture2D::8960740239553488590::1689114713::1689114718::1::::<><>::
 wheels.png::CompressedTexture2D::7998116427139450476::1689114713::1689114718::1::::<><>::
-::res://ASSETS PROPIOS/Sprites/::1687715739
-::res://ASSETS PROPIOS/Sprites/Player/::1687718215
+::res://ASSETS PROPIOS/Sprites/::1689121593
+::res://ASSETS PROPIOS/Sprites/Bala/::1689121602
+Bala.png::CompressedTexture2D::7981021353896656896::1689121587::1689121602::1::::<><>::
+::res://ASSETS PROPIOS/Sprites/Player/::1689118105
+::res://ASSETS PROPIOS/Sprites/Player/Disparo/::1689118167
+Shot0007.png::CompressedTexture2D::8731576976877047826::1689118166::1689118167::1::::<><>::
+Shot0008.png::CompressedTexture2D::1224611621366078535::1689118166::1689118167::1::::<><>::
+Shot0009.png::CompressedTexture2D::1133734154810235858::1689118166::1689118167::1::::<><>::
+Shot0010.png::CompressedTexture2D::937964185135246629::1689118166::1689118167::1::::<><>::
+Shot0011.png::CompressedTexture2D::3304606650860375106::1689118166::1689118167::1::::<><>::
+Shot0012.png::CompressedTexture2D::8992131851825388666::1689118166::1689118167::1::::<><>::
+Shot0013.png::CompressedTexture2D::5204943382104395461::1689118166::1689118167::1::::<><>::
 ::res://ASSETS PROPIOS/Sprites/Player/Idle/::1687288713
 Idle0000.png::CompressedTexture2D::3870592583370407339::1687288712::1687288712::1::::<><>::
 Idle0001.png::CompressedTexture2D::6293452335146540636::1687288712::1687288712::1::::<><>::
@@ -370,8 +382,8 @@ Run0004.png::CompressedTexture2D::5011570808557625434::1687718209::1687718216::1
 Run0005.png::CompressedTexture2D::2447070222041934027::1687718209::1687718216::1::::<><>::
 Run0006.png::CompressedTexture2D::6155772565022378071::1687718209::1687718216::1::::<><>::
 Run0007.png::CompressedTexture2D::8948130234956097102::1687718209::1687718216::1::::<><>::
-::res://Collectables/::1689110154
-Cherry.tscn::PackedScene::6333534617157171025::1689110154::0::1::::<><>::uid://b1id76inj6rio<>uid://ubwvydlus72g<>uid://c53ybomse1u8o<>uid://6usmdpxeg7tw<>uid://bmn6r778c3ube<>uid://dw303fllrwohf<>uid://fswfd4golmnw
+::res://Collectables/::1689118975
+Cherry.tscn::PackedScene::6333534617157171025::1689118975::0::1::::<><>::uid://b1id76inj6rio<>uid://ubwvydlus72g<>uid://c53ybomse1u8o<>uid://6usmdpxeg7tw<>uid://bmn6r778c3ube<>uid://dw303fllrwohf<>uid://fswfd4golmnw
 ::res://Global/::1686015499
 Game.gd::GDScript::-1::1685988049::0::1::::<>Node<>::
 Utils.gd::GDScript::-1::1685990352::0::1::::<>Node<>::
